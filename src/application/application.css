@@ -1,0 +1,119 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+
+.headerText {
+	-fx-padding: 4px 0 0 10px;
+}
+
+.headerName {
+	-fx-padding: 4px 10px 0 0;
+}
+
+.title {
+	-fx-padding: 15px 0 0 0;
+}
+
+.sidebarButton {
+	-fx-padding: 5px;
+	-fx-margin: 10px 0 0 0;
+	-fx-border-radius: 0.0;
+	-fx-background-color: #555;
+	-fx-text-fill: white;
+}
+
+.sidebarButton:hover{
+	-fx-background-color: #888;
+	-fx-border-radius: 0.0;
+}
+
+.viewReceiptContent {
+	-fx-background-color: #555;
+	-fx-padding: 10px 0 0 0;
+}
+
+.viewReceiptContent .label {
+	-fx-padding: 0 0 0 10px;
+	-fx-text-fill: white;
+}
+
+.receiptImage {
+	-fx-padding: 0 10px 0 0;
+}
+
+/*For viewReceipt popup screen */
+.buttonBox {
+	-fx-padding: 50px 0 5px 5px;
+}
+
+.buttonBox > .button{
+	-fx-padding: 5px;
+	-fx-border-radius: 0.0px;
+	-fx-text-fill:white;
+	-fx-font-size: 16px;
+}
+
+.approveButton {
+	-fx-background-color: #069D00;
+}
+
+.approveButton:hover{
+	-fx-background-color: #06C500;
+}
+
+.denyButton {
+	-fx-background-color: #A10B00;
+}
+
+.denyButton:hover{
+	-fx-background-color: #CA0B00;
+}
+
+.pendingButton {
+	-fx-background-color: #888;
+}
+
+.pendingButton:hover{
+	-fx-background-color: #aaa;
+}
+
+.addUserBtn {
+	-fx-background-color: #069D00;
+	-fx-border-radius: 120px;
+	-fx-text-fill: white;
+	-fx-font-size: 16px;
+}
+
+.addUserBtn:hover{
+	-fx-background-color: #06C500;
+}
+
+.addUserTF:hover, .addUserCB{
+	-fx-background-color: #aaa;
+}
+
+.addUserTF {
+	-fx-background-color: #888;
+	-fx-text-inner-color: white;
+	-fx-text-fill: white;
+}
+
+.addUserCB {
+	-fx-background-color: #888;
+	-fx-text-fill: white;
+	-fx-mark-color: #aaa;
+	-fx-font-size: 14px;
+}
+
+.addUserCB .menu-item > .label, .addUserCB > .label {
+	-fx-text-fill:white;
+	-fx-padding: 2px 2px 2px 8px;
+}
+
+.addUserCB .menu-item:focused, .addUserCB .menu-item:focused > .label {
+	-fx-background-color: #aaa;
+}
+
+.addUserCB .context-menu {
+	-fx-background-color: #888;
+	-fx-border-radius: 0.0px;
+	-fx-border-color: #333;
+}

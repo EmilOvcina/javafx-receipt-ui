@@ -1,0 +1,6 @@
+/bin/
+/.classpath
+/.project
+/EMO-RM.iml
+*.log
+.DS_Store
